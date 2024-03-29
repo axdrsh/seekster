@@ -1,1 +1,1 @@
-# Google Search Clone made w/ Rapid API.
+# Google Search Clone made w/ React & Rapid API.
