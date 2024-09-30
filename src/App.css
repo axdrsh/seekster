@@ -1,11 +1,9 @@
-/* General styles for the App */
 .App {
     font-family: Arial, sans-serif;
     margin: 20px;
     max-width: 800px;
 }
 
-/* Styles for the search bar */
 .searchBar {
     display: flex;
     justify-content: space-between;
@@ -32,39 +30,38 @@
 }
 
 .searchButton:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #000000;
 }
 
 /* Styles for search results */
 .searchResults {
-    border-bottom: 1px solid #eaeaea; /* Divider between results */
+    border-bottom: 1px solid #eaeaea;
     padding: 15px 0;
 }
 
 .title {
     font-size: 18px;
-    color: #000000; /* Link color */
-    text-decoration: none; /* Remove underline */
+    color: #000000;
+    text-decoration: none;
 }
 
 .title:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
 }
 
 .description {
     margin-top: 5px;
-    color: #555; /* Description text color */
+    color: #555;
 }
 
-/* Responsive design */
 @media (max-width: 600px) {
     .searchBar {
-        flex-direction: column; /* Stack elements on small screens */
-        align-items: stretch; /* Stretch to full width */
+        flex-direction: column;
+        align-items: stretch;
     }
 
     .searchInput {
-        margin-bottom: 10px; /* Space between input and button */
-        width: 100%; /* Full width on small screens */
+        margin-bottom: 10px;
+        width: 100%;
     }
 }
