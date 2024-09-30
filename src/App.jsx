@@ -11,7 +11,7 @@ function App() {
       url: "https://google-search74.p.rapidapi.com/",
       params: {
         query: `${searchTerm}`,
-        limit: "18",
+        limit: "15",
         related_keywords: "true",
       },
       headers: {
